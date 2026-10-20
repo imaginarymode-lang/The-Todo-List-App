@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <aside>
+      <h2>Projects</h2>
+      <button id="open-project-dialog-btn" class="add-btn-primary">
+        + Add Project
+      </button>
+      <div id="sidebar-container"></div>
+    </aside>
+    <main>
+      <section id="project-container"></section>
+    </main>
+
+    <dialog id="project-dialog">
+      <form id="project-form">
+        <h3>Create New Project</h3>
+        <input
+          type="text"
+          id="project-name-input"
+          placeholder="Project Title"
+          required
+        />
+        <div class="dialog-actions">
+          <button type="button" id="close-project-dialog-btn">Cancel</button>
+          <button type="submit" class="submit-btn">Save Project</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="todo-dialog">
+      <form id="todo-form">
+        <h3>Add New Task</h3>
+        <input type="text" id="todo-title" placeholder="Task Title" required />
+        <input
+          type="text"
+          id="todo-description"
+          placeholder="Description"
+          required
+        />
+        <input type="date" id="todo-due-date" required />
+        <select id="todo-priority">
+          <option value="Low">Low Priority</option>
+          <option value="Medium">Medium Priority</option>
+          <option value="High">High Priority</option>
+        </select>
+        <div class="dialog-actions">
+          <button type="button" id="close-todo-dialog-btn">Cancel</button>
+          <button type="submit" class="submit-btn">Save Task</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
