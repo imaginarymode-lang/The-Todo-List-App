@@ -11,3 +11,5 @@ Moving Forward :-
 I hope to become more familiar with these concepts in future projects. I believe it is not important to know every detail of how everything works; it is about how much impact you make in real-world applications, and I prefer learning over strictly sticking to rigid requirements.
 
 Live Demo: [https://imaginarymode-lang.github.io/todo-list-web-practice/](https://imaginarymode-lang.github.io/The-Todo-List-App/)
+
+note :- it works only in desktop size and if it in mobile. it might not work unless rotate. although I can fix it with media screen. but not right now because this is learning progress not my real project. Ok!! and have a great day 😊 
