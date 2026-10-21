@@ -1,7 +1,7 @@
 Todo List App :-
 A modular todo list application built for The Odin Project.
 
-What I Learned
+What I Learned :-
 I learned valuable lessons about using localStorage, splitting code into several files, and becoming familiar with ES6 class constructors instead of using plain functions.
 
 My Opinion on AI :-
